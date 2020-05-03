@@ -1,10 +1,13 @@
 #include <iostream>
 #include "Component.hpp"
-
+#include "SFML/Graphics.hpp"
 
 int main()
 {
+   
     using namespace CompositionArkonoid;
+    
+
 
     CompositionArkonoid::Component comp01;
 
@@ -22,6 +25,7 @@ int main()
         manager.update(1.0f);
         manager.draw();
     }
+    
 
     return 0;
 }
