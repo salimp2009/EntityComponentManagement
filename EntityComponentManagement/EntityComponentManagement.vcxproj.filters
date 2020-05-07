@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EntityComponentManagement.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Component.hpp">
+    <ClInclude Include="src\Component.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\EntityComponentManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
